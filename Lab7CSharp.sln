@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32901.82
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab7CSharp", "Lab7CSharp\Lab7CSharp.csproj", "{82DD0C76-B1D5-404F-9D39-E56FEDAF847C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab7CharpTest", "..\..\..\Desktop\ЧНУ\3 course\1 half\кпп\Lab7\Lab7CharpTest\Lab7CharpTest.csproj", "{7BE4F612-3B91-4964-A8BF-E98F43D8ADD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{82DD0C76-B1D5-404F-9D39-E56FEDAF847C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{82DD0C76-B1D5-404F-9D39-E56FEDAF847C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{82DD0C76-B1D5-404F-9D39-E56FEDAF847C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{82DD0C76-B1D5-404F-9D39-E56FEDAF847C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BE4F612-3B91-4964-A8BF-E98F43D8ADD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE4F612-3B91-4964-A8BF-E98F43D8ADD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE4F612-3B91-4964-A8BF-E98F43D8ADD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE4F612-3B91-4964-A8BF-E98F43D8ADD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

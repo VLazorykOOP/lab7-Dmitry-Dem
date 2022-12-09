@@ -1,17 +1,16 @@
-﻿
-namespace Lab7CSharp
+﻿namespace Lab7CharpTest
 {
     partial class Form1
     {
         /// <summary>
-        /// Обязательная переменная конструктора.
+        ///  Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Освободить все используемые ресурсы.
+        ///  Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -21,38 +20,68 @@ namespace Lab7CSharp
             base.Dispose(disposing);
         }
 
-        #region Код, автоматически созданный конструктором форм Windows
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// Требуемый метод для поддержки конструктора — не изменяйте 
-        /// содержимое этого метода с помощью редактора кода.
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button_task1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // textBox1
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.PaleGreen;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.World, ((byte)(204)));
-            this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label1.Location = new System.Drawing.Point(282, -1);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 18);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Lab 7.   C#";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.textBox1.Location = new System.Drawing.Point(335, 248);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(302, 27);
+            this.textBox1.TabIndex = 0;
+            this.textBox1.Text = "Enter Test!";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(335, 36);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(302, 171);
+            this.richTextBox1.TabIndex = 1;
+            this.richTextBox1.Text = "";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(335, 281);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(302, 37);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Add Text";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button_task1
+            // 
+            this.button_task1.Location = new System.Drawing.Point(31, 37);
+            this.button_task1.Name = "button_task1";
+            this.button_task1.Size = new System.Drawing.Size(150, 39);
+            this.button_task1.TabIndex = 3;
+            this.button_task1.Text = "Main Menu";
+            this.button_task1.UseVisualStyleBackColor = true;
+            this.button_task1.Click += new System.EventHandler(this.button_task1_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 314);
-            this.Controls.Add(this.label1);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(982, 653);
+            this.Controls.Add(this.button_task1);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.textBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Task 1";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -60,7 +89,9 @@ namespace Lab7CSharp
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private TextBox textBox1;
+        private RichTextBox richTextBox1;
+        private Button button1;
+        private Button button_task1;
     }
 }
-
